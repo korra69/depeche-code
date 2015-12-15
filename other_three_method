@@ -1,0 +1,9 @@
+puts "Give me a number."
+number_1 = gets
+
+def other_three_method(number_1)
+    final_number = (((((number_1.to_i + 5) *2) -4) /2) - number_1.i)
+    puts "Always #{final_number.to_s}"
+end
+
+other_three_method(3)
